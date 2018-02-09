@@ -1,5 +1,7 @@
 # Weekly Switch Sales
 
+[View the list of on-sale games here!](https://gist.github.com/bargeruns/616e5358220cfbae0daf3e2b169e9d8b)
+
 I wrote this Python script to make it easier to find out which Nintendo Switch games go on sale each week. Nintendo's website can be _painfully_ slow to navigate, and it requires (IMO) too many steps to see Switch-specific sales. I decided this would be a good time to dust off and brush up on a few skills, specifically:
 
 - Python
