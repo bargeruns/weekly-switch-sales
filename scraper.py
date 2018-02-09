@@ -25,9 +25,10 @@ payload = {
 	}
 }
 
-post = requests.patch(settings.GIST_API_URL + settings.GIST_TOKEN, data = json.dumps(payload))
+post = requests.patch(settings.GIST_API_URL + "?access_token=" + settings.GIST_TOKEN, data = json.dumps(payload))
 
 if post.status_code != 200:
+	print(post.text)
 	message = client.messages.create(
 		to=settings.PHONE_NUMBER_TO,
 		from_=settings.PHONE_NUMBER_FROM,
